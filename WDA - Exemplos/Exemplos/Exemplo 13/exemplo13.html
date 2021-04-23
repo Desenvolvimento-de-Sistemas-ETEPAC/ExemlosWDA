@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>EAD Pernambuco 2020</title>
+	<style>
+        body { text-align:center; }	 
+	    
+		.retangulo {margin: auto; border: 2px solid black;}		
+		
+		#ret0 {width: 400px; background-color: yellow;}		
+		
+		#ret0 div {
+		  margin: 20px auto;
+		  width: 50px;
+		  height: 50px;
+		}
+	</style>
+  </head> 	
+  <body>
+	<div id="ret0" class="retangulo">
+		 <br><label id="texto01">Calculo IMC</label><br>
+		 <br><input id="nome" type="text" > Digite o Nome<br>
+		 <br><input id="idade" type="text" > Digite a Idade<br>
+		 <br><input id="peso" type="text" > Digite o Peso<br>
+		 <br><input id="altura" type="text" > Digite a Altura<br>
+		 <br><label id="resultado">Resultado</label><br>
+		 <br><label id="status">Status</label><br>
+		 <br><p><button type="button" onclick="calculaImc()">Calcular</button></p><br>
+	</div>
+	<script src="script.js" ></script>
+  </body> 	
+</html>

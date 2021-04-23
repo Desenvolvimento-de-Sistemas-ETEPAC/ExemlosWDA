@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Formulário</h2>
+
+<form name="envia" method="post" action="#" onsubmit="return enviaform(this);">
+
+  <label>Nome:</label><br>
+  <input type="text" name="nome" id="nome"><br>
+  <label>Sobrenome:</label><br>
+  <input type="text" name="sobre" id="sobre"><br>
+  <input type="submit" name="enviar" value="Enviar">
+</form>
+
+<script type="text/javascript"> 
+
+function enviaform(envia){
+	
+	
+	if (envia.nome.value=="" && envia.sobre.value==""){
+		alert("Campos Vazios !!")
+	} else {
+		alert("Nome enviado !!")
+	}
+}
+
+</script>
+
+</body>
+</html>

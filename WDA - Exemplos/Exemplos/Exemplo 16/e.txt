@@ -1,0 +1,12 @@
+<div class="form-group">
+			<label class="control-label" >IMC: </label>
+			<div class="controls">
+				<label id="imc" />
+			</div>	
+		</div>
+		<div class="form-group">
+			<label class="control-label" >Status: </label>
+			<div class="controls">
+				<label id="status"/>
+			</div>	
+		</div>

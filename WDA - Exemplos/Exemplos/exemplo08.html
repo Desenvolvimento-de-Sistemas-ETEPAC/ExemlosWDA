@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>EAD Pernambuco 2020</title>
+	<style>
+        body { text-align:center; }	 	
+	</style>
+  </head> 	
+  <body>
+	<script>
+	
+		var peso = 90;
+		var altura = 1.70;
+		var imc = 0; 
+		var status = "Fora do Peso Normal";
+
+		imc = peso/(altura*altura) 
+			
+			if (imc < 18.5){
+				status="Abaixo do Peso";
+			}else if(imc >= 18.5 && imc <= 24.9){ 
+				status="Peso Normal";
+			}else if(imc >= 25 && imc <= 29.9){
+				status="Soprepeso";
+			}else{
+				status="Obesidade";
+			}			
+		
+			alert(imc)
+			alert(status)
+		
+	</script>
+  </body> 	
+</html>

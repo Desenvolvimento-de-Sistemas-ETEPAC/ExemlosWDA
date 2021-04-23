@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>CALCULADORA DE IMC</title>
+	<meta charset="utf-8">
+	
+	<link href= "css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+ 
+ </head> 	
+  <body>
+	<form >
+		<div class="form-group">
+			<label class="control-label" for="inputPeso">Peso</label>
+			<div class="controls">
+				<input id="inputPeso" type="number" step="0.01" placeholder="Peso em KG ..."/>
+			</div>	
+		</div>
+		<div class="form-group">
+			<label class="control-label" for="inputSenha">Altura</label>
+			<div class="controls">
+				<input id="inputAltura" type="number" step="0.01" placeholder="Altura em m. ..."/>
+			</div>				
+		</div>
+		<div class="form-group">
+			<div class="controls">
+				<button class="btn btn-secondary" type="submit" data-toggle="tooltip" data-placement="right" title="Clique para saber o valor do IMC." onclick="calculaImc()" >Calcular</button>
+			</div>
+		</div>
+		
+	</form>
+		
+			<script src="js/script.js"></script>
+  </body> 	
+</html>
